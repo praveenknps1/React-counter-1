@@ -1,0 +1,81 @@
+/* Center the counter on screen */
+.counter-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+}
+
+/* Counter box */
+.counter-box {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Count text */
+.counter-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Button group */
+.counter-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Common button styles */
+.counter-buttons button {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Increment button */
+.btn-inc {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-inc:hover {
+  background: #43a047;
+}
+
+/* Decrement button */
+.btn-dec {
+  background: #f44336;
+  color: white;
+}
+
+.btn-dec:hover {
+  background: #e53935;
+}
+
+/* Reset button */
+.btn-reset {
+  margin-top: 15px;
+  width: 100%;
+  background: #2196f3;
+  color: white;
+}
+
+.btn-reset:hover {
+  background: #1e88e5;
+}
+
+/* Disabled button */
+button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
