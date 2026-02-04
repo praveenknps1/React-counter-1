@@ -1,6 +1,6 @@
 /* Center the counter on screen */
 .counter-container {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,4 +78,16 @@
 button:disabled {
   background: #cccccc;
   cursor: not-allowed;
+}
+
+
+/* Normal count color */
+.count {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Change color when count > 10 */
+.count-high {
+  color: #ff9800; /* orange */
 }

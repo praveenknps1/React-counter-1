@@ -7,7 +7,7 @@ function Counter() {
     <>
       <div className="counter-container">
         <div className="counter-box">
-          <h2> Counter: {count}</h2>
+          <h2 className={count > 10 ? "count count-high" : "count"} > Count: {count}</h2>
           <div className="counter-buttons">
             <button className="btn-inc" onClick={() => setCount(count + 1)}>
               Increment
