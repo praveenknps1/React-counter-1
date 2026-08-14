@@ -1,15 +1,12 @@
-
-import './App.css'
-import Counter from './counterInrDnr'
+import "./App.css";
+import Counter from "./counterInrDnr";
 
 function App() {
- 
-
   return (
     <>
-      <Counter/>
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
